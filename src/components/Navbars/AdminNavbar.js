@@ -1,7 +1,6 @@
-'use client'
-
 import React from "react";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import UserDropdown from "@/components/Dropdowns/UserDropdown.js";
 
 export default function Navbar() {
@@ -14,15 +13,15 @@ export default function Navbar() {
           <a
             className="text-white text-sm uppercase hidden lg:inline-block font-semibold"
             href="#pablo"
-            onClick={(e) => e.preventDefault()}
+            // onClick={(e) => e.preventDefault()}
           >
-            Dashboard
+            {/* Dashboard */}
           </a>
           {/* Form */}
           <form className="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3">
             <div className="relative flex w-full flex-wrap items-stretch">
               <span className="z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3">
-                <i className="fas fa-search"></i>
+              <FontAwesomeIcon icon={faSearch} />
               </span>
               <input
                 type="text"
