@@ -93,7 +93,7 @@ export default function Sidebar() {
                   className={
                     "text-xs uppercase py-3 font-bold block " +
                     (pathname.indexOf("/dashboard") !== -1
-                      ? "text-lightBlue-500 hover:text-lightBlue-600"
+                      ? "text-sky-500 hover:text-sky-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
                   href="/dashboard"
@@ -115,7 +115,7 @@ export default function Sidebar() {
                   className={
                     "text-xs uppercase py-3 font-bold block " +
                     (pathname.indexOf("/settings") !== -1
-                      ? "text-lightBlue-500 hover:text-lightBlue-600"
+                      ? "text-sky-500 hover:text-sky-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
                   href="/settings"
@@ -137,7 +137,7 @@ export default function Sidebar() {
                   className={
                     "text-xs uppercase py-3 font-bold block " +
                     (pathname.indexOf("/tables") !== -1
-                      ? "text-lightBlue-500 hover:text-lightBlue-600"
+                      ? "text-sky-500 hover:text-sky-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
                   href="/tables"
