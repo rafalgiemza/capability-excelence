@@ -114,43 +114,21 @@ export default function Sidebar() {
                 <Link
                   className={
                     "text-xs uppercase py-3 font-bold block " +
-                    (pathname.indexOf("/settings") !== -1
+                    (pathname.indexOf("/mentors") !== -1
                       ? "text-sky-500 hover:text-sky-600"
                       : "text-blueGray-700 hover:text-blueGray-500")
                   }
-                  href="/platform/settings"
-                >
-                  <i
-                    className={
-                      "fas fa-tools mr-2 text-sm " +
-                      (pathname.indexOf("/settings") !== -1
-                        ? "opacity-75"
-                        : "text-blueGray-300")
-                    }
-                  ></i>{" "}
-                  Settings
-                </Link>
-              </li>
-
-              <li className="items-center">
-                <Link
-                  className={
-                    "text-xs uppercase py-3 font-bold block " +
-                    (pathname.indexOf("/tables") !== -1
-                      ? "text-sky-500 hover:text-sky-600"
-                      : "text-blueGray-700 hover:text-blueGray-500")
-                  }
-                  href="/platform/tables"
+                  href="/platform/mentors"
                 >
                   <i
                     className={
                       "fas fa-table mr-2 text-sm " +
-                      (pathname.indexOf("/tables") !== -1
+                      (pathname.indexOf("/mentors") !== -1
                         ? "opacity-75"
                         : "text-blueGray-300")
                     }
                   ></i>{" "}
-                  Tables
+                  mentors
                 </Link>
               </li>
             </ul>
